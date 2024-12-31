@@ -4,6 +4,10 @@ app_publisher = "mostafa"
 app_description = "test"
 app_email = "mostafa@gmail.com"
 app_license = "mit"
+website_route_rules = [
+    {"from_route": "/login", "to_route": "custom_frappe.www.login"}
+]
+fixtures = ["Web Form", "Custom Field", "Property Setter"]
 
 # Apps
 # ------------------
