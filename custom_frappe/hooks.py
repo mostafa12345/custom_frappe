@@ -8,7 +8,7 @@ override_whitelisted_methods = {
     "frappe.www.login": "custom_frappe.www.login"
 }
 fixtures = ["Web Form", "Custom Field", "Property Setter"]
-after_install = "custom_frappe.scripts.import_user_fields.execute"
+
 
 # Apps
 # ------------------
