@@ -7,7 +7,6 @@ app_license = "mit"
 override_whitelisted_methods = {
     "frappe.www.login": "custom_frappe.www.login"
 }
-fixtures = ["Web Form", "Custom Field", "Property Setter"]
 
 
 # Apps
